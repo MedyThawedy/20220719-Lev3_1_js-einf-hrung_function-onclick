@@ -1,0 +1,155 @@
+/* https://stackoverflow.com/questions/43809707/css-circle-with-half-one-color-and-the-other-half-another-color */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    margin-top: 30px;
+}
+
+#divGreen {
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: green;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+
+    transform: rotate(-134deg);
+
+    margin-left: -64px;
+    margin-top: -37px;
+
+}
+
+#divPurple {
+
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: purple;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+    margin-bottom: -18px;
+    transform: rotate(45deg);
+}
+
+#divYellow {
+
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: yellow;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+    margin-bottom: -18px;
+    transform: rotate(45deg);
+}
+
+#div434373 {
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: #434373;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+
+    transform: rotate(-134deg);
+
+    margin-left: -64px;
+    margin-top: -37px;
+}
+
+#divOrange {
+
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: orange;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+    margin-bottom: -18px;
+    transform: rotate(45deg);
+}
+
+#divBlack {
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: black;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+
+    transform: rotate(-134deg);
+
+    margin-left: -64px;
+    margin-top: -37px;
+}
+
+#divLightBlue {
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: darkblue;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+
+    transform: rotate(-134deg);
+
+    margin-left: -64px;
+    margin-top: -37px;
+
+}
+
+#divDarkBlue {
+
+    width: 180px;
+    height: 100px;
+    /* as the half of the width */
+    background-color: lightblue;
+    border-top-left-radius: 110px;
+    /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    /* 100px of height + 10px of border */
+    border: 1px solid black;
+    margin-bottom: -18px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+body>div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+}
